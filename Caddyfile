@@ -1,0 +1,9 @@
+:4050 {
+	root * ./build
+	file_server
+
+	header Access-Control-Allow-Methods "POST, GET, OPTIONS"
+	header Access-Control-Allow-Headers "*"
+	header Cross-Origin-Opener-Policy "same-origin"
+	header Cross-Origin-Embedder-Policy "require-corp"
+}
